@@ -15,7 +15,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "paths": {
-      "@shared/data-access": ["libs/shared/data-access/src/index.ts"]
+      "@shared/data-access": ["libs/shared/data-access/src/index.ts"],
+      "@eterna-travel-co-fe/ui": ["./libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

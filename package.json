@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start:eterna-travel-co": "npx nx serve eterna-travel-co --port 8100"
+    "start:eterna": "npx nx serve eterna-travel-co --port 8100",
+    "lint:eterna": "npx nx lint eterna-travel-co"
   },
   "private": true,
   "dependencies": {

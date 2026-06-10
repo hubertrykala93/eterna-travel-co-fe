@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "apps/eterna-travel-co/src",
-  "tags": [],
+  "tags": ["scope:app"],
   "targets": {
     "build": {
       "executor": "@angular/build:application",
@@ -14,6 +14,9 @@
         "browser": "apps/eterna-travel-co/src/main.ts",
         "tsConfig": "apps/eterna-travel-co/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/shared/ui/src/lib/styles"]
+        },
         "assets": [
           {
             "glob": "**/*",
