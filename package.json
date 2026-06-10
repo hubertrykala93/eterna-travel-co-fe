@@ -2,7 +2,9 @@
   "name": "@eterna-travel-co-fe/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:eterna-travel-co": "npx nx serve eterna-travel-co --port 8100"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "~21.2.0",
