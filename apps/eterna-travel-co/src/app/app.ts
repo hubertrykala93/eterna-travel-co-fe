@@ -8,6 +8,4 @@ import { RouterModule } from '@angular/router';
   styleUrl: './app.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class App {
-  protected title = 'eterna-travel-co';
-}
+export class App {}
